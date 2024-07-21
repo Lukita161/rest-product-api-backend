@@ -79,7 +79,7 @@ router.get("/",
  *                          schema: 
  *                              $ref: "#/components/schemas/Product"
  *              404:
- *                  description: The id non exist
+ *                  description: The id non exist and probably this the error
  * 
  */
 router.get("/:id", 
